@@ -1,0 +1,53 @@
+                    header,
+                    section,
+                    footer {
+                        width: 960px;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    
+                    header {
+                        background-color: orange;
+                        height: 80px;
+                    }
+                    
+                    #marca {
+                        width: 250px;
+                        height: 80px;
+                        background-color: rgb(29, 160, 25);
+                        float: left;
+                    }
+                    
+                    #btn_principal {
+                        width: 400px;
+                        height: 80px;
+                        background-color: rgb(219, 240, 32);
+                        float: right;
+                    }
+                    
+                    #inicio {
+                        background-color: orchid;
+                        height: 800px;
+                    }
+                    
+                    #img_in {
+                        width: 960px;
+                        height: 200px;
+                        background-color: crimson;
+                    }
+                    
+                    #img_izq {
+                        width: 350px;
+                        height: 350px;
+                        background-color: gold;
+                        float: left;
+                    }
+                    
+                    #img_der {}
+                    
+                    #txt_centro {}
+                    
+                    footer {
+                        background-color: teal;
+                        height: 120px;
+                    }
