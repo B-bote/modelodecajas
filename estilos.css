@@ -1,53 +1,77 @@
-                    header,
-                    section,
-                    footer {
-                        width: 960px;
-                        margin-left: auto;
-                        margin-right: auto;
-                    }
-                    
-                    header {
-                        background-color: orange;
-                        height: 80px;
-                    }
-                    
-                    #marca {
-                        width: 250px;
-                        height: 80px;
-                        background-color: rgb(29, 160, 25);
-                        float: left;
-                    }
-                    
-                    #btn_principal {
-                        width: 400px;
-                        height: 80px;
-                        background-color: rgb(219, 240, 32);
-                        float: right;
-                    }
-                    
-                    #inicio {
-                        background-color: orchid;
-                        height: 800px;
-                    }
-                    
-                    #img_in {
-                        width: 960px;
-                        height: 200px;
-                        background-color: crimson;
-                    }
-                    
-                    #img_izq {
-                        width: 350px;
-                        height: 350px;
-                        background-color: gold;
-                        float: left;
-                    }
-                    
-                    #img_der {}
-                    
-                    #txt_centro {}
-                    
-                    footer {
-                        background-color: teal;
-                        height: 120px;
-                    }
+header,
+section,
+footer {
+    width: 100%;
+}
+
+header {
+    background-color: blue;
+    height: 100px;
+    color: white;
+}
+
+#marca {
+    width: 50%;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#btn_principal {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.opciones ul {
+    text-decoration-style: none;
+}
+
+.opciones li a {
+    color: white;
+}
+
+#inicio {}
+
+#img_in {
+    width: 100%;
+    height: 100%;
+}
+
+#img_in img {
+    width: 100%;
+    height: auto;
+}
+
+#img_izq {
+    width: 50%;
+    height: 440px;
+    background-color: gold;
+    float: left;
+}
+
+#img_der {
+    width: 50%;
+    height: 440px;
+    background-color: red;
+    float: right;
+}
+
+footer {
+    background-color: teal;
+    height: 120px;
+}
+
+#datos {
+    width: 70%;
+    height: 120px;
+    background-color: #ccffff;
+    float: left;
+}
+
+#btn_redes {
+    width: 30%;
+    height: 120px;
+    background-color: #660066;
+    float: right;
+}
